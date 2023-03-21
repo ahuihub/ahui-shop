@@ -1,0 +1,159 @@
+/* sk秒杀模块开始 */
+.sk {
+    position: absolute;
+    top: 38px;
+    left: 182px;
+}
+
+.sk ul li {
+    width: 85px;
+    height: 32px;
+    padding: 3px 0 0 15px;
+    border-left: 1px solid #c81523;
+}
+
+/* sk秒杀模块结束 */
+.sk_list {
+    float: left;
+}
+
+.sk_list ul li {
+    float: left;
+}
+
+.sk_list ul li a {
+    line-height: 46px;
+    padding: 0 25px;
+    font-size: 16px;
+    color: #000000;
+    font-weight: 700;
+}
+
+.sk_con {
+    float: left;
+}
+
+.sk_con ul li {
+    float: left;
+    padding-top: 13px;
+}
+
+.sk_con ul li a {
+    padding: 0 25px;
+    font-size: 14px;
+}
+
+.sk_con ul li:last-child a::after {
+    content: "\e91e";
+    display: inline-block;
+    font-family: "icomoon";
+
+}
+
+.sk_hd {
+    height: 124px;
+}
+
+.sk_hd img {
+    /* 保持图片不要超过盒子宽高 */
+    width: 100%;
+    height: 100%;
+
+}
+
+.sk_bd ul li {
+    float: left;
+    width: 290px;
+    height: 464px;
+    margin-top: 25px;
+    margin-right: 13px;
+    border: 1px solid transparent;
+}
+
+.sk_bd ul li:nth-child(4n) {
+    margin-right: 0;
+}
+
+.sk_bd ul li:hover {
+    border: 1px solid #c81523;
+}
+
+.sk_bd ul li img {
+    width: 100%;
+    height: 298px;
+}
+
+.sk_bd ul li p {
+    font-size: 14px;
+    line-height: 20px;
+    padding-left: 12px;
+}
+
+.sk_bd ul li i,
+.sk_bd ul li .now {
+    font-size: 22px;
+    font-weight: 700;
+    color: #e60012;
+}
+
+.sk_bd ul li i {
+    padding-left: 12px;
+    font-size: 14px;
+}
+
+.sk_bd ul li .before {
+    padding-left: 6px;
+    font-size: 14px;
+    font-weight: 700;
+    color: #a4a4a4;
+    text-decoration: line-through;
+}
+
+.sk_bd ul li .quantity {
+    padding-left: 12px;
+    margin-top: 5px;
+}
+
+.sk_bd ul li .quantity .process {
+    display: inline-block;
+    width: 134px;
+    height: 14px;
+    border-radius: 7px;
+    border: 1px solid #ed282e;
+    vertical-align: text-bottom;
+    margin: 0 10px 0 8px;
+}
+
+.sk_bd ul li .quantity .process .done {
+    display: inline-block;
+    width: 117px;
+    height: 100%;
+    border-top-left-radius: 7px;
+    border-bottom-left-radius: 7px;
+    background-color: #ed282e;
+    vertical-align: top;
+}
+
+.sk_bd ul li .quantity em {
+    font-size: 16px;
+    color: #e12228;
+}
+
+.sk_bd ul li .snapped {
+    width: 288px;
+    height: 52px;
+    margin-top: 10px;
+    text-align: center;
+    line-height: 52px;
+    background-color: #b1191a;
+    font-size: 20px;
+
+}
+
+.sk_bd ul li .snapped a {
+    color: #ffffff;
+}
+
+.sk_bd {
+    margin-bottom: 25px;
+}

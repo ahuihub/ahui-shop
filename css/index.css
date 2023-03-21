@@ -1,0 +1,620 @@
+/* 首页专有main模块制作开始 */
+.main {
+    width: 980px;
+    height: 455px;
+    margin-top: 12px;
+    margin-left: 222px;
+}
+
+.focus {
+    float: left;
+    width: 720px;
+    height: 455px;
+    background: url(../images/focus.png) no-repeat;
+}
+
+.newsflash {
+    float: left;
+    width: 250px;
+    height: 455px;
+    margin-left: 10px;
+
+}
+
+.news {
+    height: 164px;
+    border: 1px solid #e8e8e7;
+}
+
+.news-hd {
+    height: 34px;
+    padding-left: 15px;
+    border-bottom: 1px dotted #e4e4e4;
+    line-height: 34px;
+}
+
+.news-hd h5 {
+    float: left;
+    font-size: 14px;
+    color: #333333;
+}
+
+.news-hd a {
+    float: right;
+}
+
+.news-hd a::after {
+    content: "\e920";
+    margin: 0 15px 0 8px;
+    font-family: "icomoon";
+}
+
+.news-bd {
+    padding-top: 4px;
+    padding-left: 15px;
+}
+
+.news-bd ul li {
+    line-height: 24px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.news-bd ul li a {
+    padding-left: 5px;
+
+}
+
+.lifestyle {
+    /* 给这个父盒子具体的宽度要足够大，才能解决其中最外侧小li溢出的问题 */
+    width: 255px;
+    height: 208px;
+    border-left: 1px solid #e8e8e7;
+
+}
+
+.lifestyle ul li {
+    float: left;
+    width: 62.25px;
+    height: 69px;
+    border-right: 1px solid #e8e8e7;
+    border-bottom: 1px solid #e8e8e7;
+}
+
+.lifestyle ul li i {
+    display: block;
+    width: 30px;
+    height: 30px;
+    margin: 8px 15px 3px 15px;
+    background: url(../images/icons.png) no-repeat -14px -13px;
+}
+
+.lifestyle ul li p {
+    text-align: center;
+}
+
+/* 使用精灵图布局图标 */
+.lifestyle ul li:nth-child(2) i {
+    background: url(../images/icons.png) no-repeat -76px -14px;
+}
+
+.lifestyle ul li:nth-child(3) i {
+    background: url(../images/icons.png) no-repeat -139px -16px;
+}
+
+.lifestyle ul li:nth-child(4) i {
+    background: url(../images/icons.png) no-repeat -202px -15px;
+}
+
+.lifestyle ul li:nth-child(5) i {
+    background: url(../images/icons.png) no-repeat -14px -86px;
+}
+
+.lifestyle ul li:nth-child(6) i {
+    background: url(../images/icons.png) no-repeat -75px -85px;
+}
+
+.lifestyle ul li:nth-child(7) i {
+    background: url(../images/icons.png) no-repeat -139px -85px;
+}
+
+.lifestyle ul li:nth-child(8) i {
+    background: url(../images/icons.png) no-repeat -203px -85px;
+}
+
+.lifestyle ul li:nth-child(9) i {
+    background: url(../images/icons.png) no-repeat -13px -156px;
+}
+
+.lifestyle ul li:nth-child(10) i {
+    background: url(../images/icons.png) no-repeat -76px -156px;
+}
+
+.lifestyle ul li:nth-child(11) i {
+    background: url(../images/icons.png) no-repeat -136px -156px;
+}
+
+.lifestyle ul li:nth-child(12) i {
+    background: url(../images/icons.png) no-repeat -204px -156px;
+}
+
+.bargin {
+    height: 75px;
+    margin-top: 8px;
+    background: url(../images/bargin.png) no-repeat;
+}
+
+/* 首页专有main模块制作结束 */
+/* recom推荐模块制作开始 */
+.recom {
+    height: 164px;
+    margin-top: 10px;
+}
+
+.recom-hd {
+    float: left;
+    width: 206px;
+    height: 164px;
+    background-color: #5c5251;
+}
+
+.recom-hd img {
+    display: block;
+    margin: 35px auto;
+}
+
+.recom-bd {
+    float: left;
+    background-color: #ebebeb;
+}
+
+.recom-bd ul li {
+    float: left;
+    width: 247.76px;
+    height: 164px;
+}
+
+.recom-bd ul li a img {
+    width: 247.76px;
+    height: 164px;
+}
+
+.recom-bd ul li:nth-child(even) {
+    display: block;
+    width: 1px;
+    height: 143px;
+    margin-top: 10px;
+    background-color: #dddddd;
+}
+
+/* recom推荐模块制作结束 */
+/* guess-like猜你喜欢模块制作开始 */
+.guess-like {
+    height: 274px;
+    margin-top: 20px;
+}
+
+.guess-hd {
+    height: 40px;
+}
+
+.guess-hd h3 {
+    float: left;
+    line-height: 40px;
+    font-size: 18px;
+    color: #333333;
+}
+
+.guess-hd .change {
+    float: right;
+    padding: 0 18px;
+}
+
+.guess-hd .change a {
+    line-height: 40px;
+}
+
+.guess-hd .change a img {
+    margin-bottom: 3px;
+    margin-left: 8px;
+}
+
+.guess-bd {
+    height: 234px;
+    border: 1px solid #ededed;
+}
+
+.guess-bd ul li {
+    float: left;
+    width: 199px;
+    height: 232px;
+}
+
+/* guess-like背景图片1到6开始 */
+.guess-bd .box1 {
+    width: 199px;
+    height: 157px;
+    background: url(../upload/guess-bd01.png) no-repeat center center;
+}
+
+.guess-bd ul li:nth-child(2) a .box1 {
+    background: url(../upload/guess-bd02.png) no-repeat center center;
+}
+
+.guess-bd ul li:nth-child(3) a .box1 {
+    background: url(../upload/guess-bd03.png) no-repeat center center;
+}
+
+.guess-bd ul li:nth-child(4) a .box1 {
+    background: url(../upload/guess-bd04.png) no-repeat center center;
+}
+
+.guess-bd ul li:nth-child(5) a .box1 {
+    background: url(../upload/guess-bd05.png) no-repeat center center;
+}
+
+.guess-bd ul li:nth-child(6) a .box1 {
+    background: url(../upload/guess-bd06.png) no-repeat center center;
+}
+
+/* guess-like背景图片1到6结束 */
+.guess-bd .box {
+    width: 199px;
+    height: 62px;
+    border-right: 1px solid #ededed;
+}
+
+.guess-bd ul li:nth-child(6) a .box {
+    /* 第六个边框去除 */
+    border-right: none;
+}
+
+.guess-bd ul li h4,
+.guess-bd ul li p {
+    display: block;
+    margin-left: 31px;
+}
+
+.guess-bd ul li h4,
+p {
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.guess-bd ul li .price {
+    font-size: 18px;
+    color: #df3033;
+    font-weight: 600;
+}
+
+.guess-bd ul li .price i {
+    font-size: 14px;
+    padding-left: 29px;
+}
+
+/* guess-like猜你喜欢模块制作结束 */
+/* 传智播客有趣区fun-area开始 */
+.fun-area {
+    height: 448px;
+    margin-top: 15px;
+}
+
+.fun-hd h3 {
+    height: 40px;
+    line-height: 40px;
+    font-size: 18px;
+    color: #333333;
+}
+
+.fun-hd h3 i {
+    display: inline-block;
+    width: 3px;
+    height: 3px;
+    margin: 5px 5px 5px 5px;
+    border-radius: 1.5px;
+    background-color: #333;
+}
+
+.fun-bd {
+    height: 408px;
+    border: 1px solid #ededed;
+}
+
+.fun-area1 {
+    float: left;
+    width: 402px;
+    height: 406px;
+    background: url(../upload/fun-area1-1.png) no-repeat top center;
+}
+
+.fun-area2 {
+    float: left;
+    width: 225px;
+    height: 406px;
+    border-right: 1px solid #ededed;
+}
+
+.fun-area2 h4 {
+    display: block;
+    width: 190px;
+    height: 40px;
+    line-height: 40px;
+    margin: 0 auto;
+    border-bottom: 1px dashed #ededed;
+    text-align: center;
+    font-size: 14px;
+    color: #333;
+}
+
+.fun-area2 .fun-area2-1 {
+    width: 225px;
+    height: 206px;
+    border-bottom: 1px solid #ededed;
+    background: url(../upload/fun-area2-1.png) no-repeat center center;
+}
+
+.fun-area2 .fun-area2-2 {
+    width: 225px;
+    height: 160px;
+    background: url(../upload/fun-area2-2.png) no-repeat center center;
+}
+
+.fun-area3 {
+    float: left;
+    width: 404px;
+    height: 406px;
+    border-right: 1px solid #ededed;
+    background-color: #f7f7f7;
+}
+
+.fun-area3 h4 {
+    display: block;
+    width: 364px;
+    height: 40px;
+    line-height: 40px;
+    margin: 0 auto;
+    border-bottom: 1px dashed #ededed;
+    text-align: center;
+    font-size: 14px;
+    color: #333;
+}
+
+.fun-area3 .fun-area3-1 {
+    width: 364px;
+    height: 205px;
+    border-bottom: 1px solid #ededed;
+    background: url(../upload/fun-area3-1.png) no-repeat center center;
+}
+
+.fun-area3-2 {
+    float: left;
+    width: 404px;
+    height: 161px;
+}
+
+.fun-area3-2-1 {
+    float: left;
+    width: 202px;
+    height: 161px;
+    border-right: 1px solid #ededed;
+    background: url(../upload/fun-area3-2.png) no-repeat center center;
+}
+
+.fun-area3-2-2 {
+    float: left;
+    width: 202px;
+    height: 161px;
+    background: url(../upload/fun-area3-3.png) no-repeat center center;
+}
+
+.fun-area4 {
+    float: left;
+    width: 160px;
+    height: 406px;
+    background: url(../upload/fun-area4.jpg) no-repeat center center;
+
+}
+
+/* 传智播客有趣区fun-area结束 */
+/* 楼层去floor制作开始 ,注意floor不要给高度，内容有多少算多少 */
+/* aps家用电器模块制作开始 */
+.appliances,
+.phone {
+    height: 445px;
+    margin-top: 15px;
+}
+
+.aps-hd {
+    height: 40px;
+    border-bottom: 2px solid #c81623;
+}
+
+.aps-hd-left {
+    float: left;
+}
+
+.aps-hd-left h3 {
+    display: block;
+    height: 40px;
+    line-height: 40px;
+    font-size: 18px;
+    color: #c81623;
+}
+
+.tab_list {
+    float: right;
+}
+
+.tab_list ul li {
+    float: left;
+    margin-top: 15px;
+}
+
+/* .tab_list ul li:hover {
+    color: #c81623;
+} */
+
+.tab_list ul li:nth-child(even) {
+    display: inline-block;
+    width: 1px;
+    height: 13px;
+    margin: 18px 12px 0 12px;
+
+    background-color: #999999;
+}
+
+.aps1 {
+    /* aps1要浮动，aps2才能靠在aps1的左边 */
+    float: left;
+    width: 210px;
+    height: 405px;
+    background-color: #f9f9f9;
+}
+
+.aps1-top {
+    width: 210px;
+    height: 100px;
+    padding-top: 5px;
+}
+
+.aps1-top ul li {
+    float: left;
+    width: 85px;
+    line-height: 24px;
+    text-align: center;
+    border-bottom: 1px solid #ededed;
+}
+
+.aps1-top ul li:nth-child(odd) {
+    margin-left: 12px;
+    margin-right: 12px;
+}
+
+.aps1-bottom {
+    height: 305px;
+    background: url(../upload/aps1-1.png) no-repeat center 10px;
+}
+
+.aps2 {
+    float: left;
+    width: 328px;
+    height: 405px;
+    background: url(../upload/aps2-1.png) no-repeat center center;
+    background-color: #aed6d8;
+}
+
+.aps3 {
+    float: left;
+    width: 218px;
+    height: 405px;
+    border: 1px solid #ededed;
+    border-top: none;
+    border-left: none;
+
+}
+
+.aps3-1 {
+    height: 180px;
+    background: url(../upload/aps3-1.png) no-repeat center center;
+    border-bottom: 1px solid #ededed;
+}
+
+.aps3-2 {
+    height: 224px;
+    background: url(../upload/aps3-2.png) no-repeat center center;
+}
+
+.aps4 {
+    float: left;
+    width: 218px;
+    height: 405px;
+    background: url(../upload/aps4-1.png) no-repeat center 45px;
+    border-right: 1px solid #ededed;
+    border-bottom: 1px solid #ededed;
+}
+
+.aps5 {
+    float: left;
+    width: 226px;
+    height: 405px;
+}
+
+.aps5-1 {
+    width: 226px;
+    height: 182px;
+    background: url(../upload/aps5-1.png) no-repeat center center;
+    border-right: 1px solid #ededed;
+    border-bottom: 1px solid #ededed;
+}
+
+.aps5-2 {
+    width: 226px;
+    height: 223px;
+    border-right: 1px solid #ededed;
+    border-bottom: 1px solid #ededed;
+    background: url(../upload/aps5-2.png) no-repeat center center;
+}
+
+.aps-brand {
+    height: 64px;
+    margin: 20px auto;
+}
+
+.aps-brand ul li {
+    float: left;
+    width: 120px;
+    height: 64px;
+    background-color: #f7f7f7;
+}
+
+.aps-brand ul li .box {
+    width: 120px;
+    height: 40px;
+    margin-top: 12px;
+    background: url(../upload/aps-brand.png) no-repeat 4px -12px;
+    border-right: 1px dashed #ededed;
+}
+
+.aps-brand ul li:last-child .box {
+    border-right: none;
+}
+
+.aps-brand ul li:nth-child(2) .box {
+    background: url(../upload/aps-brand.png) no-repeat -117px -13px;
+}
+
+.aps-brand ul li:nth-child(3) .box {
+    background: url(../upload/aps-brand.png) no-repeat -238px -13px;
+}
+
+.aps-brand ul li:nth-child(4) .box {
+    background: url(../upload/aps-brand.png) no-repeat -359px -12px;
+}
+
+.aps-brand ul li:nth-child(5) .box {
+    background: url(../upload/aps-brand.png) no-repeat -480px -12px;
+}
+
+.aps-brand ul li:nth-child(6) .box {
+    background: url(../upload/aps-brand.png) no-repeat -601px -12px;
+}
+
+.aps-brand ul li:nth-child(7) .box {
+    background: url(../upload/aps-brand.png) no-repeat -722px -11px;
+}
+
+.aps-brand ul li:nth-child(8) .box {
+    background: url(../upload/aps-brand.png) no-repeat -843px -13px;
+}
+
+.aps-brand ul li:nth-child(9) .box {
+    background: url(../upload/aps-brand.png) no-repeat -964px -14px;
+}
+
+.aps-brand ul li:nth-child(10) .box {
+    background: url(../upload/aps-brand.png) no-repeat -1085px -13px;
+}
+
+/* aps家用电器模块制作结束 */
+/* 楼层去floor制作结束 */
